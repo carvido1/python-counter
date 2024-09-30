@@ -3,7 +3,7 @@
 import http.server
 import os
 
-counter = int(os.getenv("PYTHON_COUNTER_START", 0))
+counter = int(os.getenv("PYTHON_COUNTER_START", 999))
 
 class handler(http.server.BaseHTTPRequestHandler):
     def do_GET(s):

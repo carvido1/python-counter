@@ -18,7 +18,4 @@ spec:
       containers:
       - image: acrwekubernetesavanzado.azurecr.io/python-counter:1.4.0
         name: counter
-        env:
-          - name: PYTHON_COUNTER_START
-            value: "444"
         resources: {}
