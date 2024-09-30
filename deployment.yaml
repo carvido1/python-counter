@@ -20,5 +20,5 @@ spec:
         name: counter
         env:
           - name: PYTHON_COUNTER_START
-            value: "777"
+            value: "444"
         resources: {}
